@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>HTML Contact</title>
+        <style>
+            h1 {
+                text-align: center;
+            }
+            body {
+                background-color: cornflowerblue;
+            }
+            input[type=submit] {
+                background-color: green;
+                margin: 10px;
+            }
+            .contact {
+                margin-top: 100px;
+             margin-bottom: 100px;
+             margin-right:150px;
+                margin-left: 80px; 
+                font-size: 21px;
+            }
+            input[type=submit]:hover {
+             background-color: darkred;   
+            }
+        </style>
+    </head>
+    <body>
+        <h1><b>Contact Me!</b></h1>
+        <form name = "contactForm" method="get" action="DamianShaw-Lab2-Page2.html">
+       <div class=" contact">
+        <label for="firstName">First Name:</label>
+        <input type="text", id="firstName" required>
+
+        <label for = "lastName">Last Name</label>
+        <input type="text", id="lastName">
+        <br>
+        <label for = "email">Email Address:</label>
+        <input type = "email", id="email" required>
+        <input type="submit" value="Submit!">
+    </div>
+        </form>
+    </body>
+</html>
